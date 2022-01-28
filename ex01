@@ -1,0 +1,5 @@
+mkdir ex01
+cat > testJour00
+chmod u=r,g=r+x,o=r+x testJour00
+touch -t 4006012342 testJour00
+tar -cf testJour00.tar testJour00
